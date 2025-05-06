@@ -1,5 +1,5 @@
 #include<iostream>
-#include<bits\stdc++.h>
+
 #include<climits>
 using namespace std;
 void generate_max_sum_sub_array(int a[], int n){
