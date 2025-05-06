@@ -87,3 +87,14 @@ int main(){
     print_LL(head);
 return 0;
 }
+#include <iostream>
+using namespace std;
+class node{
+    int data;
+    node* next;
+    node(int d){// this is called constructor 
+        data= d;
+        next=NULL;
+        
+    }
+}

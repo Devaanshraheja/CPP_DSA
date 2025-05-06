@@ -1,8 +1,10 @@
 #include<iostream>
+#include<bits\stdc++.h>
 #include<climits>
 using namespace std;
 void generate_max_sum_sub_array(int a[], int n){
     int max_sum=INT_MIN;
+    int wi, wj;
     
     for (int i = 0; i < n; i++)
     {
@@ -16,13 +18,21 @@ void generate_max_sum_sub_array(int a[], int n){
                     sum+=a[k];
                     
                 }
-                if(sum>max_sum) max_sum=sum;
+                if(sum>max_sum) {
+                    max_sum=sum;
+                    wi=i;
+                    wj=j;
+                }
             }
             
         }
         
     }
-    cout<<max_sum<<endl;
+
+    cout<<"The maximum sum is "<<max_sum<<endl;
+    for(int i=wi; i<=wj;i++){
+        cout<<a[i]<<" ";
+    }
     
 }
 int main(){
