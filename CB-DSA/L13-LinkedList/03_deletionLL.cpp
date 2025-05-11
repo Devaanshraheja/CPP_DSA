@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void insertion_at_end(node*&head, node*&tail, int data){
+void insertion_at_end (node*&head, node*&tail, int data){
     if(head==NULL){
         insertion_at_front(head, tail, data);
     }

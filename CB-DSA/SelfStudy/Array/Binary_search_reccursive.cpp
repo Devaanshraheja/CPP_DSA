@@ -20,6 +20,6 @@ int binary_search_recursive(const vector<int>& arr, int target, int start, int e
 int main(){
     vector<int> vec={12,13,14,15,16,89};
     int n=vec.size();
-    cout<<binary_search_recursive(vec,15,0,n-1);
+    cout<<binary_search_recursive(vec,15,0,n-1)<<endl;
     return 0;
 }
