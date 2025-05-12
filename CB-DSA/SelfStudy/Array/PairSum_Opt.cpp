@@ -18,6 +18,7 @@ vector<int> pairsum(vector<int> arr,int target){
         else {
             ans.push_back(i);
             ans.push_back(j);
+            break;
 
 
         }
