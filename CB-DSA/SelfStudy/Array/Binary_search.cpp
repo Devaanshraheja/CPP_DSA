@@ -42,6 +42,7 @@ int main(){
     // int target_1=21;
     // cout<<binary_search(arr_2,target_1,n1);
     cout<<binary_seach_reccursive(arr1,7,0,n-1)<<endl;
+    cout<<"binary search";
 
 
 }
