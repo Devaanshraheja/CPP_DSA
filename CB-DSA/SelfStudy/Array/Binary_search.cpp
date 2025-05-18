@@ -27,7 +27,7 @@ int binary_search(vector<int>arr1,int target, int n){
         else if(target<arr1[mid]){
             end=mid-1;
         }
-        else return mid;
+        else if(target==mid)return mid;
     }
     return -1;
 
@@ -41,7 +41,7 @@ int main(){
     // int n1=arr_2.size();
     // int target_1=21;
     // cout<<binary_search(arr_2,target_1,n1);
-    cout<<binary_seach_reccursive(arr1,7,0,n-1);
+    cout<<binary_seach_reccursive(arr1,7,0,n-1)<<endl;
 
 
 }
