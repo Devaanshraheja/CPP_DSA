@@ -25,6 +25,8 @@ int main(){
     return 0;
     
     cout<<"hi"<< endl;
+    cout<<"hi"<< endl;
+    }
     }
 
     
