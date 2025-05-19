@@ -23,6 +23,7 @@ int main(){
     generate_sub_array(a,n);
 
     return 0;
+    cout<<"hi"<< endl;
     }
 
     
