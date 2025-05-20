@@ -12,6 +12,9 @@ int main(){
         cout<<a[i]<<" ";
     }
     cout<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
     
 
 }
