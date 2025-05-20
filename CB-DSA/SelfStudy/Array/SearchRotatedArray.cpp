@@ -31,6 +31,7 @@ int main(){
     vector<int> arr={3,4,5,6,7,0,1,2};
     int n=arr.size();
     cout<<search_rotated_array(arr,n,0);
+    cout<<"search_rotated_array(arr,n,0)";
     
 }
 
