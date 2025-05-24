@@ -1,4 +1,5 @@
-#include<bits\stdc++.h>
+#include<iostream>
+#include<algorithm>
 using namespace std;
 void kadanes_algo(int a[], int n ){
     int sum=0, wj ,wi, start;
