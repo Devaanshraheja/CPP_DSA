@@ -1,5 +1,7 @@
 #include <iostream>
-#include<q
+#include<algorithm>
+
+#include<queue>
 using namespace std;
 class node {
     public:
@@ -23,11 +25,11 @@ class node {
 
     }
     node * lca(node* root, int a, int b){
-        if(!root) return null;
+        if(!root) return NULL;
         if(root->data==a|| root->data==b ) return root;
-        node* leftmaimila=lca(node* root->left, a,b);
+        node* leftmaimila=lca(root->left, a,b);
 
-        node* rightmainmila=lca(node* root->right, a,b);
+        node* rightmainmila=lca(root->right, a,b);
        if(leftmaimila && rightmainmila) return root;// aagr dono mein ek ek element mil gya then root will be lca
        else if(leftmaimila) return leftmaimila;// agar domno left mein honge to we'll get left node ka dress
 
@@ -38,7 +40,7 @@ class node {
         node * root=build_tree();
         node * ans= lca(root,3,13);
         if(ans)cout<<ans->data<<endl;
-        else cout<<"no lca possible"
+        else cout<<"no lca possible";
         return 0;
          
     }

@@ -8,10 +8,14 @@ int dectobin(int DecNum){
         DecNum=DecNum/2;
         ans=ans+(rem*pow);
         pow*=10;
-}
-return ans;
+        
+    }
     
+   
+    return ans;
 }
+    
+
 int bintodec(int bin_num){
     int ans=0;
     int pow=1;// 2^0=1
